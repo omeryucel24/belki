@@ -14,5 +14,7 @@ while True:
     else:
         print("aradığınız kelime bulunmamaktadır.")
         time.sleep(1)
+    if word=="NEW":
+        yeni_kelime=input("hangi kelimeyi eklemek istiyorsunuz?")
+        meme_dict.append(yeni_kelime)
         
-        # Kelime eşleşmiyorsa ne yapmalıyız?
