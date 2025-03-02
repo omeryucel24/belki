@@ -15,6 +15,6 @@ while True:
         print("aradığınız kelime bulunmamaktadır.")
         time.sleep(1)
     if word=="NEW":
-        yeni_kelime=input("hangi kelimeyi eklemek istiyorsunuz?")
-        meme_dict.append(yeni_kelime)
-        
+        yeni_kelime = input("hangi kelimeyi eklemek istiyorsunuz?")
+        yeni_anlam = input("kelimenin anlamı nedir?")
+        meme_dict[yeni_kelime] = yeni_anlam
